@@ -20,7 +20,9 @@ const App = () => {
   const canvasRef = useRef(null);
 
   // model configs
-  const modelName = "yolov8n";
+  // const modelName = "yolov8n";
+  // const modelName = "train9_n_best";
+  const modelName = "train1_detect_best";
 
   useEffect(() => {
     tf.ready().then(async () => {

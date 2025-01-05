@@ -1,0 +1,46 @@
+description: Ultralytics train1_detect_best model trained on /data/xujunchao/ultralytics-main_0-32/ultralytics/cfg/datasets/coco128-seg_1227.yaml
+author: Ultralytics
+date: '2025-01-03T15:40:36.237668'
+version: 8.3.40
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: _background_
+  1: T18
+  2: T17
+  3: T16
+  4: T15
+  5: T14
+  6: T13
+  7: T12
+  8: T11
+  9: T21
+  10: T22
+  11: T23
+  12: T24
+  13: T25
+  14: T26
+  15: T27
+  16: T28
+  17: T38
+  18: T37
+  19: T36
+  20: T35
+  21: T34
+  22: T33
+  23: T32
+  24: T31
+  25: T41
+  26: T42
+  27: T43
+  28: T44
+  29: T45
+  30: T46
+  31: T47
+  32: T48
